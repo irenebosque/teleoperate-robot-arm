@@ -3,13 +3,13 @@ How to teleoperate a robot arm with a joystick using meta-world benchmark and Mu
 For your machine learning projects
 
 # Table of Contents
-1. [Example](#example)
+1. [Create a virtual environment for the project](#create-a-virtual-environment-for-the-project)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
-# example
-# Create a virtual environment for the project (optional)
+
+# Create a virtual environment for the project
 ```Shell
 # Install virtualenv
 sudo apt-get install python-virtualenv
@@ -30,9 +30,15 @@ python
 pip install tensorflow==1.4.0
 ```
 
-# Get a MuJOco license
+# MuJoco
+## Get a MuJOco license
 This tutorial uses the <a href="https://meta-world.github.io/">meta-world</a> benchmark which is based in MuJoco
 You can get a 30 days free <a href="https://www.roboti.us/license.html">MuJoco license</a> here. If you are a student, the license it is free. Note: It took me 1 week until they send me my student license.
+## Install MuJoco
+
+---
+
+# Meta-world
 
 
 
